@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
-import fire
+""" Algernon should run GUI when: $ alger-gui """
 
-def hello(name="World"):
-  return "Hello %s!" % name
+import logging
+from rich import console
+from rich.logging import RichHandler
 
-if __name__ == '__main__':
-  fire.Fire(hello)
+# 1. Import QApplication and all the required widgets
+from PyQt6.QtWidgets import QApplication, QLabel, QWidget
+

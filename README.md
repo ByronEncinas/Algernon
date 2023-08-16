@@ -7,8 +7,15 @@
   - [Parser & Visuals](#parser-&-visuals)
   - [Commands CLI Algernon](#cli-commands)
   - [Usage GUI Algernon](#gui-usage)
-  
 
+<!-- 
+## Mascot 
+ 
+ o_o
+(_^_) ( °)>   
+      |   U
+      (    )
+     -->
 ## Pip (production)
 
 Algernon will be planned to be released as a pip package.
