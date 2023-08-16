@@ -19,6 +19,61 @@ Algernon will be planned to be released as a pip package.
 
 Algernon will count with the functionality of visualization of ASCII, JSON, XML, TOML, YAML, CSV with graphic interfaces: diagrams, arrows and even datatables.
 
+**Example JSON**
+
+    {
+        "name": "Soup",
+        "ingredients": [
+            {
+                "ingredientName": "Water",
+                "requiredAmount": 1
+            },
+            {
+                "ingredientName": "Potatoes",
+                "requiredAmount": 4
+            }
+        ]
+    }
+
+**Example XML**
+
+    <recipe>
+        <name>Soup</name>
+        <ingredients>
+            <ingredient>
+                <ingredientName>Water</ingredientName>
+                <requiredAmount>1</requiredAmount>
+            </ingredient>
+            <ingredient>
+                <ingredientName>Potatoes</ingredientName>
+                <requiredAmount>4</requiredAmount>
+            </ingredient>
+        </ingredients>
+    </recipe>
+
+**Example YAML**
+
+    name: Soup
+    ingredients:
+      - ingredientName: Water
+        requiredAmount: 1
+      - ingredientName: Potatoes
+        requiredAmount: 4
+
+
+**Example TOML**
+
+    name = "Soup"
+
+    [[ingredients]]
+    ingredientName = "Water"
+    requiredAmount = 1
+
+    [[ingredients]]
+    ingredientName = "Potatoes"
+    requiredAmount = 4
+
+
 ## Commands CLI Algernon
 
 ## Usage GUI Algernon
