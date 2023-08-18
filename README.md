@@ -16,7 +16,7 @@
         |                  |
         +------------------+ 
 
-    > $ python alger.py non
+    > $ python alger.py 
           o_o
          (_^_) ( °)>   
                |   U

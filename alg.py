@@ -1,5 +1,5 @@
 """ 
-#!/usr/bin/env python3
+#!/usr/bin/env python
  """
 """ Algernon should run GUI when: $ alger-gui """
 
@@ -23,29 +23,19 @@ path = os.getcwd()
 logging.basicConfig(level="NOTSET", format="%(message)s", datefmt="[%X]", handlers=[RichHandler(markup=True, rich_tracebacks=True)])
 
 
-#log.inf('')
+# be non case specific
+sys.argv = [elem.lower() for elem in sys.argv]
 
 # log treatment to avoid possible errors
 
-print(sys.argv)
-
 # Differentiate between CLI and GUI
-if len(sys.argv) > 1:
-    if sys.argv[1] == 'non':
+if len(sys.argv) >= 2: # if argument given
+    if sys.argv[1] == "non": # if that argument is 'non'
         App()
-    else:
-        try: # exists argument alger %%%%%
-            sys.argv[2]
-        except IndexError: # no?
-            getattr(Shell, 'help') # then do the same git does
-        try:
-                getattr(Shell, sys.argv[1])()  
-        except AttributeError:
-                print(AttributeError)
-        finally:
-            print("App Terminated")    
+    else: # if argument is for the CLI
+        getattr(Shell, sys.argv[1])() # then do the same git does
 else:
-     getattr(Shell, 'help')
+    getattr(Shell, "help")()
 
 # test setting
 if __name__ == '__main__':
