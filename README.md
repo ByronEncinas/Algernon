@@ -1,7 +1,32 @@
 # Algernon is a CLI/GUI app to manipulate data in different formats
 
-## Table of Contents
+## What this commit is implementing (this section is different in **all** commits)
 
+    (this format just for now) $ python alger.py [ARGS] [FLAGS] ...
+
+    - [x] When using Algernon the GUI.py file is called
+
+    - [x] We will make it so that 
+
+    > $ python alger.py non 
+
+        +------------------+
+        |                  |                    
+        |    GUI Window    |
+        |                  |
+        +------------------+ 
+
+    > $ python alger.py non
+          o_o
+         (_^_) ( °)>   
+               |   U
+               (__ )    
+
+
+    displays in the terminal a message with those two little animals
+
+
+## Table of Contents
   
   - [Pip Installation](#pip)
   - [Parser & Visuals](#parser-&-visuals)
@@ -11,10 +36,6 @@
 <!-- 
 ## Mascot 
  
- o_o
-(_^_) ( °)>   
-      |   U
-      (    )
      -->
 ## Pip (production)
 
