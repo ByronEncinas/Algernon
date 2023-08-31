@@ -33,10 +33,6 @@
   - [Commands CLI Algernon](#cli-commands)
   - [Usage GUI Algernon](#gui-usage)
 
-<!-- 
-## Mascot 
- 
-     -->
 ## Pip (production)
 
 Algernon will be planned to be released as a pip package.
@@ -101,6 +97,9 @@ Algernon will count with the functionality of visualization of ASCII, JSON, XML,
     ingredientName = "Potatoes"
     requiredAmount = 4
 
+## Crystallographic convertion of data
+
+Due to some interest in taking a more scientific use of this, we will add a set of instructions to convert from XYZ format to CIF. This feature remains pending.
 
 ## Commands CLI Algernon
 
