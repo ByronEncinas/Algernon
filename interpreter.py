@@ -44,11 +44,11 @@ class Shell(Helpers):
 [yellow]These are common Git commands used in various situations:
 
 [yellow]start a working area (see also: git help tutorial)
-   [green]display     [orange1]Clone a repository into a new directory
+   [green]display     [orange1]Shows data in the format it is read
    [green]tree      [orange1]Will show a hierarchy tree with all the data (looking like git adog command)
 
 [yellow]work on the current change (see also: git help everyday)
-   [green]add       [orange1]Add file contents to the index
-   [green]mv        [orange1]Move or rename a file, a directory, or a symlink
-   [green]restore   [orange1]Restore working tree files
+   [green]levitate       [orange1]Reads data and asks for the format of the final product
+   [green]drop        [orange1]Converts data that has been levitated into the final format
+   [green]restore   [orange1]
    [green]rm        [orange1]Remove files from the working tree and from the index""")
